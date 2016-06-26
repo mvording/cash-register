@@ -1,6 +1,3 @@
-import sun.net.www.content.text.PlainTextInputStream;
-
-import java.io.InputStream;
 import java.util.Scanner;
 
 /**
