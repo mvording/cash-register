@@ -27,6 +27,8 @@ public class Cash {
      * @return
      */
     public static Cash parse(String[] denominationAmounts){
+        if (denominationAmounts==null) return null;
+   
         Cash result = new Cash();
 
         for (int index=0; index<denominationAmounts.length && index<result.counts.length; index++){
