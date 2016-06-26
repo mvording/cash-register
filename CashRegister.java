@@ -94,7 +94,7 @@ public class CashRegister {
                 } else if (command.equals("change")) {
                     int changeAmount = 0;
 
-                    if (arguments.length == 1)
+                    if (arguments!=null && arguments.length == 1)
                         try {
                             changeAmount = Integer.parseInt(arguments[0]);
                         } catch (NumberFormatException e) {
